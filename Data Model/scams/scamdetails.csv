@@ -1,0 +1,11 @@
+Scam Title,Code-Related Issues
+Reentrancy Attacks,Vulnerable smart contracts allow external calls before updating contract states enabling attackers to repeatedly call functions and drain funds.
+Integer Overflow/Underflow,Arithmetic operations in smart contracts fail to properly handle large numbers leading to unexpected behavior and potential fund loss.
+Smart Contract Logic Flaws,Coding errors or oversights in contract logic such as unchecked inputs or faulty access control mechanisms allow manipulation of contract behavior.
+Hidden Mints,Malicious code allows developers to create unlimited new tokens diluting value for legitimate holders.
+Honeypot Traps,Smart contracts are programmed to prevent buyers from reselling tokens trapping their investments.
+Hidden Fee Modifiers,Malicious code enables developers to set exorbitant sell fees up to 100% preventing users from selling tokens.
+Hidden Balance Modifiers,Vulnerable code allows developers to arbitrarily edit users' token balances.
+Fake Ownership Renunciations,Smart contracts are designed to falsely appear as if ownership has been renounced while developers retain control over sensitive functions.
+Hidden Max Transaction Modifiers,Malicious code permits developers to set maximum transaction values as low as zero effectively freezing token transfers.
+Timestamp Dependence,Smart contracts rely on block timestamps for critical operations which can be manipulated by miners to exploit time-sensitive functionalities.
