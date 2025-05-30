@@ -10,7 +10,6 @@ This project provides tools for:
 2. Processing and analyzing security audit results
 3. Generating comprehensive visualizations of audit findings
 
-## Components
 
 
 > **Note:** This repository will be updated in June as part of our published work.
