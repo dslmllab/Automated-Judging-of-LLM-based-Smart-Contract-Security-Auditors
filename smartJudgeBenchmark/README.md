@@ -49,6 +49,39 @@ Each metric is rated on a 4-point scale:
 | Reproducible Environments | Highly consistent, reproducible test setups | Mostly reproducible setups with rare discrepancies | Infrequently reproducible, occasional environment drift | Unreliable, non-reproducible environments |
 | Version Control | Tight version control with clear benchmark evolution | Reasonably tracked versions, minor gaps | Inconsistent version tracking | Poor or no version tracking |
 
+### 5. Explanation Quality
+
+| Metric | 🟩🟩🟩🟩 |  🟨🟨🟨 | 🟧🟧 | 🟥 |
+|--------|-------|-----|----|----|
+| Clarity and Coherence | Explanations are clear, concise, and logically structured | Generally clear explanations with minor confusion | Some clarity issues, requires effort to understand | Confusing, disorganized explanations |
+| Root Cause Identification | Accurately identifies the true cause of vulnerabilities | Usually correct root cause analysis | Sometimes misattributes causes | Rarely identifies correct root causes |
+| Remediation Advice | Offers practical, actionable remediation steps | Generally useful advice with some gaps | Generic or partially useful advice | Little to no practical remediation guidance |
+
+### 6. Coverage Analysis
+
+| Metric | 🟩🟩🟩🟩 |  🟨🟨🟨 | 🟧🟧 | 🟥 |
+|--------|-------|-----|----|----|
+| Code Component Coverage | Analyzes nearly 100% of the codebase | Analyzes majority (>80%) of code components | Partial coverage (50-80%) | Limited coverage (<50%) |
+| Cross Contract Analysis | Thorough inter contract vulnerability detection | Moderate success detecting cross contract issues | Occasionally identifies cross contract issues | Rarely or never detects inter contract issues |
+| Blind Spot Detection | Almost no missed patterns, excellent blind spot checks | Few missed patterns, generally good coverage | Regularly misses certain pattern types | Many blind spots, misses significant portions |
+
+### 7. Comparative Utility
+
+| Metric | 🟩🟩🟩🟩 |  🟨🟨🟨 | 🟧🟧 | 🟥 |
+|--------|-------|-----|----|----|
+| Agreement with Human Audits | High correlation (Cohen's Kappa >0.8) | Moderate correlation (Kappa ~0.6-0.8) | Low correlation (Kappa ~0.4-0.6) | Poor agreement (Kappa <0.4) |
+| Consistency Across Runs | Highly stable results across multiple runs | Generally stable with minor variance | Noticeable variation between runs | Inconsistent, highly variable outcomes |
+| Pattern Generalization | Adapts well to new/unseen patterns | Sometimes adapts, but not consistently | Struggles to generalize new patterns | Fails to generalize beyond trained scenarios |
+
+### 8. Operational Efficiency
+
+| Metric | 🟩🟩🟩🟩 |  🟨🟨🟨 | 🟧🟧 | 🟥 |
+|--------|-------|-----|----|----|
+| Scalability | Maintains performance even at large scale | Slight performance drop at large scale | Significant drop at moderate scale | Not scalable, performance fails at scale |
+| Error Handling | Recovers gracefully from errors, minimal downtime | Handles most errors with some user intervention | Error recovery is hit or miss | Poor error handling, frequent breakdowns |
+| System Integration | Integrates smoothly with various tools and pipelines | Usually integrates with some adjustments | Integration is challenging, frequent fixes needed | Difficult or impossible to integrate effectively |
+
+
 ## Performance Levels
 
 Overall scores are calculated by averaging the ratings across all metrics:
