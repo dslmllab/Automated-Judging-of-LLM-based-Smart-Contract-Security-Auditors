@@ -64,7 +64,7 @@ contracts = [
     }
 ]
 
-distiller = ContractDistiller(api_key="sk-proj*")
+distiller = ContractDistiller(api_key="sk-proj*") # Repalce with openAI key
 training_data = distiller.generate_training_data(contracts)
 job_id = distiller.fine_tune(training_data)
 print(f"Fine-tuning job started: {job_id}")
